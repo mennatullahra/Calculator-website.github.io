@@ -1,0 +1,74 @@
+html {
+    background: #000;
+  }
+  .bg1{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.bg2{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  opacity: 0.5;
+}  
+li{
+  font-size: 15px;
+  text-align: left;
+}
+  body {
+    color: #ffffff;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 300;
+    padding: 5em 0 5em;
+    text-align: center;
+    padding-top: 0;
+    margin: 0;
+  }
+  p{
+    font-size: 18px;
+  }
+  .text{
+    padding-top: 25px;
+  }
+  .calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 10em;
+  }
+h1{
+  font-size: 1em;
+  padding: 15px;
+}  
+  .viewer {
+    color: #ffffff;
+    float: left;
+    line-height: 3em;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 7.5em;
+    height: 3em;
+  }
+  input{
+    border: 0;
+    background: rgba(90, 90, 90, 0.28);
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+  }
+ input:hover {
+    background: rgba(144, 39, 39, 0.28);
+  }
+  input[type="text"]
+         {
+         background-color:black;
+         color: white;
+         width:70%;
+         }
